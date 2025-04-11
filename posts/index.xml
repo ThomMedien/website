@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Terminal</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Terminal</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Audio in Mediengestaltung</title>
+      <link>/posts/audio/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/audio/</guid>
+      <description>&lt;p&gt;Audio Test&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kamera in Mediengestaltung</title>
+      <link>/posts/kamera/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/kamera/</guid>
+      <description>&lt;p&gt;Kamera Test&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Schnitt in Mediengestaltung</title>
+      <link>/posts/schnitt/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/schnitt/</guid>
+      <description>&lt;p&gt;Test Schnitt&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Willkommen bei Mediengestaltung Kompakt</title>
+      <link>/posts/mediengestaltung-kompakt/</link>
+      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/mediengestaltung-kompakt/</guid>
+      <description>&lt;p&gt;Hier sammeln wir kontinuierlich Wissen rund um Mediengestaltung&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Hier sammeln wir kontinuierlich Wissen rund um Mediengestaltung. Unser Ziel ist es, eine umfassende Ressource zu schaffen, die sowohl Grundlagen als auch fortgeschrittene Techniken übersichtlich darstellt.&lt;/p&gt;&#xA;&lt;p&gt;Diese Website ist ein lebendiges Projekt. Bei der Zusammenstellung umfangreicher Inhalte können vereinzelt Fehler auftreten.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/PXL_20250131_153427836.jpg&#34; alt=&#34;PXL_20250131_153427836.jpg&#34;&gt;&lt;img src=&#34;/images/PXL_20240606_120408172.jpg&#34; alt=&#34;PXL_20240606_120408172.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/Screenshot%202025-03-22%20141129.png&#34; alt=&#34;Screenshot 2025-03-22 141129.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
