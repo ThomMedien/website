@@ -13,5 +13,3 @@ Diese Website ist ein lebendiges Projekt. Bei der Zusammenstellung umfangreicher
 
 
 ![PXL_20250131_153427836.jpg](/images/PXL_20250131_153427836.jpg)![PXL_20240606_120408172.jpg](/images/PXL_20240606_120408172.jpg)
-
-![Screenshot 2025-03-22 141129.png](/images/Screenshot%202025-03-22%20141129.png)
