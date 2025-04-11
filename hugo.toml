@@ -7,16 +7,18 @@ pagination.pagerSize = 5
   noClasses = false
 
 [params]
-  # Disable content type section
-  # contentTypeName = ""  # This is commented out to prevent section page
+  # Favicon configuration
+  favicon = "favicon.png"  # Path to your favicon (now corrected)
 
-  showMenuItems = 1  # Only show 1 menu item (About)
+  # Content settings
+  # contentTypeName = ""
+  showMenuItems = 1
   showLanguageSelector = false
   fullWidthTheme = false
   centerTheme = false
   autoCover = true
   showLastUpdated = false
-  ascendingOrder = true  # Ensure ascending order
+  ascendingOrder = true
 
 [params.twitter]
   creator = ""
@@ -48,5 +50,3 @@ pagination.pagerSize = 5
           identifier = "about"
           name = "About"
           url = "/about"
-
-        # REMOVED the "showcase" menu item
