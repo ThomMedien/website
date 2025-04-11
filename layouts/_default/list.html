@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <div class="posts">
+    {{ range .Pages.ByDate }} <!-- Sort all lists by oldest first -->
+      <article class="post on-list">
+        <h2 class="post-title">
+          <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+        </h2>
+        <div class="post-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}" class="post-date">
+            {{ .Date.Format "2006-01-02" }}
+          </time>
+        </div>
+        <div class="post-content">
+          {{ .Summary | plainify | safeHTML }}
+        </div>
+        <a class="read-more button" href="{{ .RelPermalink }}">Read more →</a>
+      </article>
+    {{ end }}
+    {{ partial "pagination.html" . }}
+  </div>
+{{ end }}
