@@ -2,7 +2,7 @@
 title: Willkommen bei Mediengestaltung Kompakt
 date: 2025-04-09
 draft: false
-image: "[[PXL_20250131_153427836.jpg_153427836.jpg"
+image: "[[PXL_20250131_153427836.jpg]]"
 ---
 
 Hier sammeln wir kontinuierlich Wissen rund um Mediengestaltung. Unser Ziel ist es, eine umfassende Ressource zu schaffen, die sowohl Grundlagen als auch fortgeschrittene Techniken übersichtlich darstellt.
