@@ -5,15 +5,13 @@
         <h2 class="post-title">
           <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
         </h2>
+        <a class="read-more button" href="{{ .RelPermalink }}">Read more →</a>
         <div class="post-meta">
           <time datetime="{{ .Date.Format "2006-01-02" }}" class="post-date">
             {{ .Date.Format "2006-01-02" }}
           </time>
         </div>
-        <div class="post-content">
-          {{ .Summary | plainify | safeHTML }}
-        </div>
-        <a class="read-more button" href="{{ .RelPermalink }}">Read more →</a>
+        <!-- Removed the post-content / summary preview -->
       </article>
     {{ end }}
     {{ partial "pagination.html" . }}
