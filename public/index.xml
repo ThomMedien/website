@@ -30,11 +30,11 @@
       <description>&lt;h4 id=&#34;farbkreis&#34;&gt;Farbkreis&lt;/h4&gt;&#xA;&lt;p&gt;S-Log und ähnliche Varianten sind Gamma-Kurven, speziell entwickelt von Sony, daher der Name &amp;ldquo;S-Log&amp;rdquo;. C-Log gibt es auch für Canon-Kameras. Diese Codierung optimiert die Kameraeigenschaften, um mehr Details in den Schatten und Lichtern zu erfassen, die später in der Postproduktion bearbeitet werden können. &lt;strong&gt;Log&lt;/strong&gt; funktioniert bei der Komprimierung eines größeren Gamma-Bereichs, zum Beispiel 1000 Nits auf die standardisierte Nits-Skala von 100 Nits. Es komprimiert in diesem Fall 1000 Nits auf 100 Nits, und daher sieht Raw-Log-Material ohne Bearbeitung sehr flach aus. Einfach gesagt: Ein Log-Profil kann einen größeren Helligkeitsbereich messen (Gamma-Kurve) und kann daher nach der Bearbeitung ein besseres Bild darstellen. Aber man muss mit dem Bild arbeiten, um diese komprimierten Daten vollständig zu nutzen.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Warum wir das machen</title>
+      <title>Zweck des Projekts</title>
       <link>/posts/2025-04-11-ziele.md/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
       <guid>/posts/2025-04-11-ziele.md/</guid>
-      <description>&lt;p&gt;Ziel dieses Projekts ist es, einen zentralen Raum zu schaffen – ähnlich einem Wiki –, in dem wir unsere Gedanken sammeln und gleichzeitig die vielfältigen Aspekte des Medienbereichs gemeinsam lernen können.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/Brick.jpg&#34; alt=&#34;Brick.jpg&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Ziel dieses Projekts ist es, einen zentralen Raum zu schaffen – ähnlich einem Wiki, in dem wir unsere Gedanken und Ideen sammeln können, während wir gleichzeitig gemeinsam die vielfältigen Aspekte des Medienbereichs erlernen und vertiefen.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/Brick.jpg&#34; alt=&#34;Brick.jpg&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Willkommen bei Mediengestaltung Kompakt</title>
