@@ -4,8 +4,6 @@ date: 2025-04-09
 draft: false
 ---
 
-
-
 Hier sammeln wir kontinuierlich Wissen rund um Mediengestaltung. Unser Ziel ist es, eine umfassende Ressource zu schaffen, die sowohl Grundlagen als auch fortgeschrittene Techniken übersichtlich darstellt.
 
 
