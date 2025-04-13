@@ -6,7 +6,7 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Test Schnitt
+<meta name="description" content="Farbkreis S-Log und ähnliche Varianten sind Gamma-Kurven, speziell entwickelt von Sony, daher der Name &ldquo;S-Log&rdquo;. C-Log gibt es auch für Canon-Kameras. Diese Codierung optimiert die Kameraeigenschaften, um mehr Details in den Schatten und Lichtern zu erfassen, die später in der Postproduktion bearbeitet werden können. Log funktioniert bei der Komprimierung eines größeren Gamma-Bereichs, zum Beispiel 1000 Nits auf die standardisierte Nits-Skala von 100 Nits. Es komprimiert in diesem Fall 1000 Nits auf 100 Nits, und daher sieht Raw-Log-Material ohne Bearbeitung sehr flach aus. Einfach gesagt: Ein Log-Profil kann einen größeren Helligkeitsbereich messen (Gamma-Kurve) und kann daher nach der Bearbeitung ein besseres Bild darstellen. Aber man muss mit dem Bild arbeiten, um diese komprimierten Daten vollständig zu nutzen.
 " />
 <meta name="keywords" content="" />
 
@@ -79,7 +79,7 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Schnitt in Mediengestaltung">
-<meta property="og:description" content="Test Schnitt
+<meta property="og:description" content="Farbkreis S-Log und ähnliche Varianten sind Gamma-Kurven, speziell entwickelt von Sony, daher der Name &ldquo;S-Log&rdquo;. C-Log gibt es auch für Canon-Kameras. Diese Codierung optimiert die Kameraeigenschaften, um mehr Details in den Schatten und Lichtern zu erfassen, die später in der Postproduktion bearbeitet werden können. Log funktioniert bei der Komprimierung eines größeren Gamma-Bereichs, zum Beispiel 1000 Nits auf die standardisierte Nits-Skala von 100 Nits. Es komprimiert in diesem Fall 1000 Nits auf 100 Nits, und daher sieht Raw-Log-Material ohne Bearbeitung sehr flach aus. Einfach gesagt: Ein Log-Profil kann einen größeren Helligkeitsbereich messen (Gamma-Kurve) und kann daher nach der Bearbeitung ein besseres Bild darstellen. Aber man muss mit dem Bild arbeiten, um diese komprimierten Daten vollständig zu nutzen.
 " />
 <meta property="og:url" content="/posts/2025-04-11-schnitt.md/" />
 <meta property="og:site_name" content="Terminal" />
@@ -171,7 +171,114 @@
     
 
     <div class="post-content"><div>
-          <p>Test Schnitt</p>
+          <h4 id="farbkreis">Farbkreis<a href="#farbkreis" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<p>S-Log und ähnliche Varianten sind Gamma-Kurven, speziell entwickelt von Sony, daher der Name &ldquo;S-Log&rdquo;. C-Log gibt es auch für Canon-Kameras. Diese Codierung optimiert die Kameraeigenschaften, um mehr Details in den Schatten und Lichtern zu erfassen, die später in der Postproduktion bearbeitet werden können. <strong>Log</strong> funktioniert bei der Komprimierung eines größeren Gamma-Bereichs, zum Beispiel 1000 Nits auf die standardisierte Nits-Skala von 100 Nits. Es komprimiert in diesem Fall 1000 Nits auf 100 Nits, und daher sieht Raw-Log-Material ohne Bearbeitung sehr flach aus. Einfach gesagt: Ein Log-Profil kann einen größeren Helligkeitsbereich messen (Gamma-Kurve) und kann daher nach der Bearbeitung ein besseres Bild darstellen. Aber man muss mit dem Bild arbeiten, um diese komprimierten Daten vollständig zu nutzen.</p>
+<p><strong>S-Log</strong> ist ein logarithmisches Farbprofil, das in der Videografie verwendet wird, um einen höheren Dynamikumfang zu erfassen und mehr Details in Schatten und Lichtern zu bewahren.</p>
+<h4 id="rgb-yuv-ycbcr">RGB, YUV, YCbCr<a href="#rgb-yuv-ycbcr" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<p>Die Farbräume <strong>RGB</strong>, <strong>YUV</strong> und <strong>YCbCr</strong> sind verschiedene Arten, Farben in digitalen Medien darzustellen.</p>
+<ul>
+<li>
+<p><strong>RGB</strong>: Steht für Rot, Grün und Blau. Es wird häufig in digitalen Displays verwendet, bei denen Licht direkt von jeder der drei Primärfarben kombiniert wird.</p>
+</li>
+<li>
+<p><strong>YUV</strong>: Ein Farbmodell, das Helligkeit (Y) und Farbinformationen (U und V) trennt. Es wird oft in Videoanwendungen verwendet, um die Effizienz der Bildkodierung zu erhöhen.</p>
+</li>
+<li>
+<p><strong>YCbCr</strong>: Eine Variation von YUV, die für digitale Videoformate und -kompressionen verwendet wird.</p>
+</li>
+</ul>
+<h4 id="video-kompression-und-speichergrößen">Video-Kompression und Speichergrößen<a href="#video-kompression-und-speichergrößen" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<p>Die <strong>Speichergrößen</strong> von digitalen Medien wie Bildern und Videos sind eng mit der Kompression und den verwendeten Farbmodellen verbunden. Hier spielen <strong>Bit-Tiefe</strong> und <strong>Sample-Rate</strong> eine Rolle, aber auch die Art und Weise, wie Daten gespeichert werden, ist entscheidend.</p>
+<p>Digitale Speichereinheiten wie <strong>Bit</strong> und <strong>Byte</strong> sind die Grundlage für die Speicherung von Daten. Ein <strong>Bit</strong> ist die kleinste Informationseinheit (0 oder 1), und ab 8 Bits ergibt sich ein <strong>Byte</strong>, das dann in größeren Einheiten wie Kilobytes (KB), Megabytes (MB), Gigabytes (GB) und Terabytes (TB) organisiert wird.</p>
+<ul>
+<li>
+<p><strong>1 GiB = 8,589,934,592 Bits</strong></p>
+</li>
+<li>
+<p><strong>1 GB = 8,000,000,000 Bits</strong></p>
+</li>
+<li>
+<p><strong>1 Gb = 1,000,000,000 Bits</strong></p>
+</li>
+</ul>
+<p>Es ist wichtig, zwischen den verschiedenen Definitionen von Gigabyte (GB) und Gibibyte (GiB) zu unterscheiden:</p>
+<ul>
+<li>
+<p><strong>1 GB</strong> (Gigabyte) ist die dezimale Definition und entspricht 1.000.000.000 Bytes.</p>
+</li>
+<li>
+<p><strong>1 GiB</strong> (Gibibyte) ist die binäre Definition und entspricht 1.073.741.824 Bytes.</p>
+</li>
+</ul>
+<p><strong>Gigabit</strong> (Gb) ist ebenfalls ein gängiger Begriff und entspricht einem Gigabyte geteilt durch 8 (also 1 Gigabit = 1/8 eines Gigabytes).</p>
+<p>Die Speicherkapazität von Speichermedien wie USB-Sticks oder SD-Karten wird häufig in <strong>dezimalen</strong> Gigabytes angezeigt (z. B. 1 GB = 1.000.000.000 Bytes), während der echte binäre Wert (GiB) oft kleiner ist.</p>
+<hr>
+<h4 id="schnittarten">Schnittarten:<a href="#schnittarten" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<ul>
+<li>
+<p><strong>Jump Cut</strong></p>
+</li>
+<li>
+<p><strong>Kontinuitätsmontage</strong></p>
+</li>
+<li>
+<p><strong>Match Cut</strong></p>
+</li>
+<li>
+<p><strong>Planschnitt</strong></p>
+</li>
+<li>
+<p><strong>Assoziationsmontage</strong></p>
+</li>
+<li>
+<p><strong>Kreuzschnitt / Parallelmontage</strong></p>
+</li>
+<li>
+<p><strong>Interframe (I, P, B Frames) / GOP</strong></p>
+</li>
+<li>
+<p><strong>Kodierung</strong></p>
+</li>
+<li>
+<p><strong>Inter vs. Intra</strong></p>
+</li>
+<li>
+<p><strong>CBR vs. VBR</strong></p>
+</li>
+</ul>
+<hr>
+<h4 id="schnitt-aufbau-und-vorbereitung">Schnitt-Aufbau und Vorbereitung<a href="#schnitt-aufbau-und-vorbereitung" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<ul>
+<li>
+<p><strong>Timeline-Einstellungen</strong></p>
+</li>
+<li>
+<p><strong>Schnitt-Regeln</strong></p>
+</li>
+<li>
+<p><strong>Auflösung</strong></p>
+</li>
+</ul>
+<hr>
+<h3 id="computentechnik">Computentechnik<a href="#computentechnik" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h4 id="programme-und-hardware">Programme und Hardware<a href="#programme-und-hardware" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<ul>
+<li>
+<p><strong>Software / Hardware</strong></p>
+</li>
+<li>
+<p><strong>Busse</strong></p>
+</li>
+<li>
+<p><strong>Komponenten</strong></p>
+</li>
+<li>
+<p><strong>Netzwerke</strong></p>
+</li>
+<li>
+<p>IP-Adressen</p>
+</li>
+</ul>
 
         </div></div>
 
