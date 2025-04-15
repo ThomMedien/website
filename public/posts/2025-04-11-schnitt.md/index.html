@@ -6,7 +6,8 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Farbkreis S-Log und ähnliche Varianten sind Gamma-Kurven, speziell entwickelt von Sony, daher der Name &ldquo;S-Log&rdquo;. C-Log gibt es auch für Canon-Kameras. Diese Codierung optimiert die Kameraeigenschaften, um mehr Details in den Schatten und Lichtern zu erfassen, die später in der Postproduktion bearbeitet werden können. Log funktioniert bei der Komprimierung eines größeren Gamma-Bereichs, zum Beispiel 1000 Nits auf die standardisierte Nits-Skala von 100 Nits. Es komprimiert in diesem Fall 1000 Nits auf 100 Nits, und daher sieht Raw-Log-Material ohne Bearbeitung sehr flach aus. Einfach gesagt: Ein Log-Profil kann einen größeren Helligkeitsbereich messen (Gamma-Kurve) und kann daher nach der Bearbeitung ein besseres Bild darstellen. Aber man muss mit dem Bild arbeiten, um diese komprimierten Daten vollständig zu nutzen.
+<meta name="description" content="Schnitt-Aufbau und Vorbereitung In this section I will introduce the important elements of setting up the editing software which you are using, my reference will be Premiere Pro, however I will give a short explanation to each part so even if the names arent the same across softwares, the idea should be understood.
+To begin with I tend to create my sequence settings first, as that will the basis for where one cuts their sequences and master. As we are in a PAL region, it is important we set our timeline to 25i, especially if your material is designed to be broadcast via television. In due time we will have a link explaining more about frame rate and the difference between I and P frames. In the sequence settings we begin with ensuring the correct frame rate and scanning method (25i), as well as the number of audio channels and video channels, these can be easily added later but it helps to know from the beginning. These can also be made into presets, especially as different shows or rubriks, will have different prerequisites. For example certain news formats wont include any music, therefore will have a different number of audio tracks as more creative MAZs that include music. Most shows however will almost certainly require graphics which is why 2 video tracks are often helpful. The base setup for audio and video tracks are as follows. This is a base setup so depending on what context you are editing, one can often decide between a 6 channel audio sequence, if musik is included, or a 4 channel audio sequence if not.
 " />
 <meta name="keywords" content="" />
 
@@ -79,7 +80,8 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Schnitt in Mediengestaltung">
-<meta property="og:description" content="Farbkreis S-Log und ähnliche Varianten sind Gamma-Kurven, speziell entwickelt von Sony, daher der Name &ldquo;S-Log&rdquo;. C-Log gibt es auch für Canon-Kameras. Diese Codierung optimiert die Kameraeigenschaften, um mehr Details in den Schatten und Lichtern zu erfassen, die später in der Postproduktion bearbeitet werden können. Log funktioniert bei der Komprimierung eines größeren Gamma-Bereichs, zum Beispiel 1000 Nits auf die standardisierte Nits-Skala von 100 Nits. Es komprimiert in diesem Fall 1000 Nits auf 100 Nits, und daher sieht Raw-Log-Material ohne Bearbeitung sehr flach aus. Einfach gesagt: Ein Log-Profil kann einen größeren Helligkeitsbereich messen (Gamma-Kurve) und kann daher nach der Bearbeitung ein besseres Bild darstellen. Aber man muss mit dem Bild arbeiten, um diese komprimierten Daten vollständig zu nutzen.
+<meta property="og:description" content="Schnitt-Aufbau und Vorbereitung In this section I will introduce the important elements of setting up the editing software which you are using, my reference will be Premiere Pro, however I will give a short explanation to each part so even if the names arent the same across softwares, the idea should be understood.
+To begin with I tend to create my sequence settings first, as that will the basis for where one cuts their sequences and master. As we are in a PAL region, it is important we set our timeline to 25i, especially if your material is designed to be broadcast via television. In due time we will have a link explaining more about frame rate and the difference between I and P frames. In the sequence settings we begin with ensuring the correct frame rate and scanning method (25i), as well as the number of audio channels and video channels, these can be easily added later but it helps to know from the beginning. These can also be made into presets, especially as different shows or rubriks, will have different prerequisites. For example certain news formats wont include any music, therefore will have a different number of audio tracks as more creative MAZs that include music. Most shows however will almost certainly require graphics which is why 2 video tracks are often helpful. The base setup for audio and video tracks are as follows. This is a base setup so depending on what context you are editing, one can often decide between a 6 channel audio sequence, if musik is included, or a 4 channel audio sequence if not.
 " />
 <meta property="og:url" content="/posts/2025-04-11-schnitt.md/" />
 <meta property="og:site_name" content="Terminal" />
@@ -171,10 +173,106 @@
     
 
     <div class="post-content"><div>
-          <h4 id="farbkreis">Farbkreis<a href="#farbkreis" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+          <h4 id="schnitt-aufbau-und-vorbereitung">Schnitt-Aufbau und Vorbereitung<a href="#schnitt-aufbau-und-vorbereitung" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<p>In this section I will introduce the important elements of setting up the editing software which you are using, my reference will be Premiere Pro, however I will give a short explanation to each part so even if the names arent the same across softwares, the idea should be understood.</p>
+<p>To begin with I tend to create my sequence settings first, as that will the basis for where one cuts their sequences and master. As we are in a PAL region, it is important we set our timeline to 25i, especially if your material is designed to be broadcast via television. In due time we will have a link explaining more about frame rate and the difference between I and P frames. In the sequence settings we begin with ensuring the correct frame rate and scanning method (25i), as well as the number of audio channels and video channels, these can be easily added later but it helps to know from the beginning. These can also be made into presets, especially as different shows or rubriks, will have different prerequisites. For example certain news formats wont include any music, therefore will have a different number of audio tracks as more creative MAZs that include music. Most shows however will almost certainly require graphics which is why 2 video tracks are often helpful. The base setup for audio and video tracks are as follows. This is a base setup so depending on what context you are editing, one can often decide between a 6 channel audio sequence, if musik is included, or a 4 channel audio sequence if not.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Spur</strong></th>
+          <th><strong>Bezeichnung</strong></th>
+          <th><strong>Typ</strong></th>
+          <th><strong>Beschreibung</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>V2</td>
+          <td>Grafiken</td>
+          <td>Video</td>
+          <td>Bauchbinden, Inserts, Titel usw.</td>
+      </tr>
+      <tr>
+          <td>V1</td>
+          <td>Haupt Visuelles Material</td>
+          <td>Video</td>
+          <td>Hauptvideo, Interview, Schnittbilder</td>
+      </tr>
+      <tr>
+          <td>A1</td>
+          <td>Originalton  (OT)</td>
+          <td>Audio (Mono)</td>
+          <td>Gesprochene Inhalte, z. B. Interview</td>
+      </tr>
+      <tr>
+          <td>A2</td>
+          <td>Atmo (IT)</td>
+          <td>Audio (Mono)</td>
+          <td>Umgebungsgeräusche, Hintergrundton</td>
+      </tr>
+      <tr>
+          <td><em>A3</em></td>
+          <td><em>Musik</em></td>
+          <td><em>Audio (Mono)</em></td>
+          <td><em>Hintergrundmusik</em></td>
+      </tr>
+      <tr>
+          <td><em>A4</em></td>
+          <td><em>Musik</em></td>
+          <td><em>Audio (Mono)</em></td>
+          <td><em>Zusätzliche Musikspur, Layering etc.</em></td>
+      </tr>
+      <tr>
+          <td>A5</td>
+          <td>Vertonung</td>
+          <td>Audio (Mono)</td>
+          <td>Off-Kommentar, Sprecher:in</td>
+      </tr>
+      <tr>
+          <td>A6</td>
+          <td>Effekten</td>
+          <td>Audio (Mono)</td>
+          <td>Effekten</td>
+      </tr>
+  </tbody>
+</table>
+<p>This is the base structure on which you will build your MAZ, for those who dont know MAZ stands for Magnetische Aufzeichnung, and stems from the times when VHS and Betamax were used. While those cameras are no longer relevant the term is important to remember as it represents a finished video, ready for broadcast.</p>
+<p>What you can also see from the table above is that the in audio tracks are mono. However as there are two musik tracks it will be heard as a stereo track. As a rule of thumb, unless one is creating something very creative, the standard rules are that everything apart from music is mono when editing. It simplifies the editing process and the benefits of stereo audio isnt as nessesary when recording the audio from a single audio source, such as a person. Therefore it is important to set up the audio channels correctly in your NLE (non linear editing system), as premiere pro will often compress multi audio channel footage into one audio track with four channels, which isnt good for editing. We want to select our footage and tell premiere pro that each channel needs its own track, and the tracks will already be set to mono. Important that the pan balance is in the middle for all mono tracks and the two stereo tracks can be panned hard left and hard right.</p>
+<p><img src="/images/Sequence%20Tab.png" alt="Sequence Tab.png"></p>
+<p><img src="/images/Tracks%20Tab.png" alt="Tracks Tab.png"></p>
+<p>Nachdem das Sequenzformat korrekt eingerichtet wurde – zum Beispiel mit funf Mono-Audiokanälen für den TV-Bereich – importiert man das gesamte Rohmaterial in das Projekt. Viele professionell aufgezeichnete MXF-Dateienenthalten standardmäßig acht Audiokanäle, obwohl in der Praxis häufig nur die ersten vier Kanäle tatsächlich genutzt werden. Mit der Tastenkombination Shift + G(bzw. über Clip &gt; Audio-Kanäle ändern**) lässt sich die Kanalbelegung der Clips anpassen. Um ungenutzte und leere Kanäle zu vermeiden, wählt man in solchen Fällen gezielt nur die genutzten Kanäle aus – also beispielsweise nur die ersten vier von acht. Das sorgt für Übersichtlichkeit in der Timeline und erleichtert die spätere Audiobearbeitung.</p>
+<p>Eine klare Projektstruktur spart Zeit, hilft dir den Überblick zu behalten und macht es einfacher, wenn jemand anderes das Projekt übernehmen muss. Besonders bei Material von mehreren Geräten wie GoPro, FX9 oder Drohne solltest du dir angewöhnen, alles sauber zu trennen. Im Projekt legst du zuerst einen Ordner für alle Originalclips an. Innerhalb dieses Ordners hat jedes Gerät seinen eigenen Unterordner, also zum Beispiel „GoPro“, „FX9“ und „Drohne“. So vermeidest du, dass sich die Clips verschiedener Kameras vermischen. Für jedes Gerät erstellst du dann eine eigene Sequenz, in der alle zugehörigen Clips chronologisch angeordnet sind. Diese Sequenzen kommen in einen zweiten Ordner, getrennt vom Rohmaterial. So arbeitest du nicht mit 150 einzelnen Clips in der Timeline, sondern mit drei übersichtlichen Sequenzen. Zusätzlich legst du weitere Ordner an: einen für die Master-Sequenz, einen für Musik, einen für Soundeffekte, einen für Grafiken. Diese Struktur macht dein Projekt logisch, aufgeräumt und professionell – egal ob du allein arbeitest oder im Team.</p>
+<h3 id="das-richtige-workspace-setup">Das richtige Workspace-Setup<a href="#das-richtige-workspace-setup" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Sobald Sequenz und Quellmaterial korrekt vorbereitet sind, ist es entscheidend, mit einem effizienten und übersichtlichen Arbeitsbereich zu arbeiten. Der Schlüssel liegt darin, nur so viele Informationen wie nötig sichtbar zu machen – ein überladetes Interface kann den Schnittprozess unnötig verkomplizieren.</p>
+<p>Empfehlenswert ist ein auf das Wesentliche reduziertes Layout mit folgenden zentralen Panels:</p>
+<ul>
+<li>
+<p><strong>Clip-Mixer</strong>: Zeigt die Audiopegel einzelner Clips in der Timeline – nützlich für schnelle Pegelkontrolle beim Schnitt.</p>
+</li>
+<li>
+<p><strong>Spur-Mixer (Track Mixer)</strong>: Für die genaue Steuerung und Mischung der gesamten Audiospuren in der Sequenz – ideal beim Mischen von O-Ton, Musik und Atmo.</p>
+</li>
+<li>
+<p><strong>Projektfenster (Projektmaterial)</strong>: Gut organisiert in <strong>ordnerbasierte Bins</strong>, ergänzt durch passende Metadaten wie <strong>Länge, Bildrate (fps), Auflösung</strong> und ggf. <strong>Tonformat</strong>.</p>
+</li>
+<li>
+<p><strong>Timeline</strong>: Das Herzstück des Schnitts, mit sauber benannten Spuren (z. B. V1, A1-O-Ton, A2-Musik).</p>
+</li>
+<li>
+<p><strong>Timecode-Anzeige</strong>: Zeigt <strong>aktuelle Abspielposition</strong>, <strong>In-/Out-Punkte</strong> sowie die <strong>Gesamtdauer der Auswahl</strong> – wichtig für präzises Timing.</p>
+</li>
+<li>
+<p><strong>Effekte-Fenster</strong>: Schneller Zugriff auf Video- und Audioeffekte sowie Voreinstellungen.</p>
+</li>
+<li>
+<p><strong>Source- und Programm-Monitor</strong>: Für das Sichten des Rohmaterials (Source) und die Vorschau der bearbeiteten Sequenz (Programmfenster).</p>
+</li>
+</ul>
+<hr>
+<h4 id="farbkreis"><!-- raw HTML omitted -->Farbkreis<!-- raw HTML omitted --><a href="#farbkreis" class="hanchor" ariaLabel="Anchor">#</a> </h4>
 <p>S-Log und ähnliche Varianten sind Gamma-Kurven, speziell entwickelt von Sony, daher der Name &ldquo;S-Log&rdquo;. C-Log gibt es auch für Canon-Kameras. Diese Codierung optimiert die Kameraeigenschaften, um mehr Details in den Schatten und Lichtern zu erfassen, die später in der Postproduktion bearbeitet werden können. <strong>Log</strong> funktioniert bei der Komprimierung eines größeren Gamma-Bereichs, zum Beispiel 1000 Nits auf die standardisierte Nits-Skala von 100 Nits. Es komprimiert in diesem Fall 1000 Nits auf 100 Nits, und daher sieht Raw-Log-Material ohne Bearbeitung sehr flach aus. Einfach gesagt: Ein Log-Profil kann einen größeren Helligkeitsbereich messen (Gamma-Kurve) und kann daher nach der Bearbeitung ein besseres Bild darstellen. Aber man muss mit dem Bild arbeiten, um diese komprimierten Daten vollständig zu nutzen.</p>
 <p><strong>S-Log</strong> ist ein logarithmisches Farbprofil, das in der Videografie verwendet wird, um einen höheren Dynamikumfang zu erfassen und mehr Details in Schatten und Lichtern zu bewahren.</p>
-<h4 id="rgb-yuv-ycbcr">RGB, YUV, YCbCr<a href="#rgb-yuv-ycbcr" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<h4 id="rgb-yuv-ycbcr"><!-- raw HTML omitted -->RGB, YUV, YCbCr<!-- raw HTML omitted --><a href="#rgb-yuv-ycbcr" class="hanchor" ariaLabel="Anchor">#</a> </h4>
 <p>Die Farbräume <strong>RGB</strong>, <strong>YUV</strong> und <strong>YCbCr</strong> sind verschiedene Arten, Farben in digitalen Medien darzustellen.</p>
 <ul>
 <li>
@@ -187,7 +285,7 @@
 <p><strong>YCbCr</strong>: Eine Variation von YUV, die für digitale Videoformate und -kompressionen verwendet wird.</p>
 </li>
 </ul>
-<h4 id="video-kompression-und-speichergrößen">Video-Kompression und Speichergrößen<a href="#video-kompression-und-speichergrößen" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<h4 id="video-kompression-und-speichergrößen"><!-- raw HTML omitted -->Video-Kompression und Speichergrößen<!-- raw HTML omitted --><a href="#video-kompression-und-speichergrößen" class="hanchor" ariaLabel="Anchor">#</a> </h4>
 <p>Die <strong>Speichergrößen</strong> von digitalen Medien wie Bildern und Videos sind eng mit der Kompression und den verwendeten Farbmodellen verbunden. Hier spielen <strong>Bit-Tiefe</strong> und <strong>Sample-Rate</strong> eine Rolle, aber auch die Art und Weise, wie Daten gespeichert werden, ist entscheidend.</p>
 <p>Digitale Speichereinheiten wie <strong>Bit</strong> und <strong>Byte</strong> sind die Grundlage für die Speicherung von Daten. Ein <strong>Bit</strong> ist die kleinste Informationseinheit (0 oder 1), und ab 8 Bits ergibt sich ein <strong>Byte</strong>, das dann in größeren Einheiten wie Kilobytes (KB), Megabytes (MB), Gigabytes (GB) und Terabytes (TB) organisiert wird.</p>
 <ul>
@@ -213,7 +311,7 @@
 <p><strong>Gigabit</strong> (Gb) ist ebenfalls ein gängiger Begriff und entspricht einem Gigabyte geteilt durch 8 (also 1 Gigabit = 1/8 eines Gigabytes).</p>
 <p>Die Speicherkapazität von Speichermedien wie USB-Sticks oder SD-Karten wird häufig in <strong>dezimalen</strong> Gigabytes angezeigt (z. B. 1 GB = 1.000.000.000 Bytes), während der echte binäre Wert (GiB) oft kleiner ist.</p>
 <hr>
-<h4 id="schnittarten">Schnittarten:<a href="#schnittarten" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<h4 id="schnittarten"><!-- raw HTML omitted -->Schnittarten:<!-- raw HTML omitted --><a href="#schnittarten" class="hanchor" ariaLabel="Anchor">#</a> </h4>
 <ul>
 <li>
 <p><strong>Jump Cut</strong></p>
@@ -247,20 +345,7 @@
 </li>
 </ul>
 <hr>
-<h4 id="schnitt-aufbau-und-vorbereitung">Schnitt-Aufbau und Vorbereitung<a href="#schnitt-aufbau-und-vorbereitung" class="hanchor" ariaLabel="Anchor">#</a> </h4>
-<ul>
-<li>
-<p><strong>Timeline-Einstellungen</strong></p>
-</li>
-<li>
-<p><strong>Schnitt-Regeln</strong></p>
-</li>
-<li>
-<p><strong>Auflösung</strong></p>
-</li>
-</ul>
-<hr>
-<h3 id="computentechnik">Computentechnik<a href="#computentechnik" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h3 id="computentechnik"><!-- raw HTML omitted -->Computentechnik<!-- raw HTML omitted --><a href="#computentechnik" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <h4 id="programme-und-hardware">Programme und Hardware<a href="#programme-und-hardware" class="hanchor" ariaLabel="Anchor">#</a> </h4>
 <ul>
 <li>
