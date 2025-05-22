@@ -8,6 +8,6 @@ Changes are coming, please wait while we update.
 
 
 
-![[Brick.jpg]]
+![Brick.jpg](/images/Brick.jpg)
 
 

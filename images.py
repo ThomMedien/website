@@ -3,7 +3,7 @@ import re
 import shutil
 
 # --- CONFIGURATION ---
-obsidian_dir = r"C:\Users\Tom Coffey\Desktop\Obsidian Notes\Mediengestaltung Notes\Posts for website"
+obsidian_dir = r"C:\Users\Tom Coffey\Desktop\Technical\Obsidian Notes\Mediengestaltung Notes\Posts for website"
 hugo_posts_dir = r"C:\Users\Tom Coffey\Documents\website\content\posts"
 hugo_images_dir = r"C:\Users\Tom Coffey\Documents\website\content\posts"
 
