@@ -10,4 +10,4 @@ Hier sammeln wir kontinuierlich Wissen rund um Mediengestaltung. Unser Ziel ist 
 Diese Website ist ein lebendiges Projekt. Bei der Zusammenstellung umfangreicher Inhalte können vereinzelt Fehler auftreten.
 
 
-![PXL_20250131_153427836.jpg](/images/PXL_20250131_153427836.jpg)![PXL_20240606_120408172.jpg](/images/PXL_20240606_120408172.jpg)
+![[PXL_20250131_153427836.jpg]]![[PXL_20240606_120408172.jpg]]
