@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/</loc>
+    <lastmod>2025-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2025-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/2025-04-11-upcoming-changes.md/</loc>
+    <lastmod>2025-05-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/posts/2025-04-11-audio.md/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/2025-04-11-kamera.md/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/posts/2025-04-11-schnitt.md/</loc>
-    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/2025-04-11-upcoming-changes.md/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/2025-04-09-mediengestaltung-kompakt.md/</loc>
