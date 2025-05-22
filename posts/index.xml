@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Terminal</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upcoming Changes</title>
+      <link>/posts/2025-04-11-upcoming-changes.md/</link>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/2025-04-11-upcoming-changes.md/</guid>
+      <description>&lt;p&gt;Changes are coming, please wait while we update. This website will be shifting towards IT based discussions and explanations. Focusing on software like blender, coding, graphic design and AI developments.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/Brick.jpg&#34; alt=&#34;Brick.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Audio in Mediengestaltung</title>
       <link>/posts/2025-04-11-audio.md/</link>
@@ -28,13 +35,6 @@
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
       <guid>/posts/2025-04-11-schnitt.md/</guid>
       <description>&lt;h4 id=&#34;schnitt-aufbau-und-vorbereitung&#34;&gt;Schnitt-Aufbau und Vorbereitung&lt;/h4&gt;&#xA;&lt;p&gt;In diesem Abschnitt werde ich die wichtigen Elemente der Einrichtung der Schnittsoftware vorstellen, die du verwendest. Meine Referenz ist Premiere Pro, jedoch werde ich zu jedem Teil eine kurze Erklärung geben, damit die Idee auch dann verstanden wird, wenn die Begriffe in anderen Softwareprogrammen unterschiedlich sind.&lt;/p&gt;&#xA;&lt;p&gt;Zu Beginn erstelle ich meistens zuerst die Sequenzeinstellungen, da dies die Grundlage für den Schnitt der Sequenzen und des Masterprojekts bildet. Da wir uns in einer PAL-Region befinden, ist es wichtig, dass wir unsere Timeline auf 25i setzen, besonders wenn das Material für die Ausstrahlung über Fernsehen gedacht ist. Zu gegebener Zeit werden wir einen Link zur Verfügung stellen, der mehr über Bildraten und den Unterschied zwischen I- und P-Frames erklärt. In den Sequenzeinstellungen beginnen wir damit, die richtige Bildrate und Abtastmethode (25i) festzulegen sowie die Anzahl der Audio- und Video-Kanäle. Diese können später problemlos hinzugefügt werden, aber es ist hilfreich, sie von Anfang an festzulegen. Diese Einstellungen können auch in Voreinstellungen gespeichert werden, da verschiedene Formate oder Rubriken unterschiedliche Anforderungen haben. Zum Beispiel werden bei bestimmten Nachrichtenformaten keine Musikstücke verwendet, daher wird eine andere Anzahl von Audiokanälen benötigt als bei kreativeren MAZs (Materialzusammenschnitten), die Musik beinhalten. Die meisten Shows benötigen jedoch fast immer Grafiken, weshalb zwei Video-Tracks häufig hilfreich sind. Die Grundkonfiguration für Audio- und Video-Tracks lautet wie folgt: Dies ist eine Basis-Konfiguration, sodass je nach Kontext beim Schneiden entschieden werden kann, ob eine Sequenz mit 6 Audiokanälen (wenn Musik enthalten ist) oder eine Sequenz mit 4 Audiokanälen (wenn keine Musik enthalten ist) sinnvoller ist.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Upcoming Changes</title>
-      <link>/posts/2025-04-11-upcoming-changes.md/</link>
-      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/2025-04-11-upcoming-changes.md/</guid>
-      <description>&lt;p&gt;Changes are coming, please wait while we update.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/Brick.jpg&#34; alt=&#34;Brick.jpg&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Willkommen bei Mediengestaltung Kompakt</title>
