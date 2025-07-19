@@ -1,9 +1,202 @@
 ---
-title: Schnitt in Mediengestaltung
+title: Audio in Mediengestaltung
 date: 2025-04-11
 draft: false
-image: 
+image:
 ---
+
+
+## Mikrofonarten
+
+**Kondensator-Mikrofone:**  
+Brauchen auf jeden Fall Strom, da die Membran durch eine Spannung (Phantomspeisung – meist 48 Volt) aufgeladen wird, um Schall aufzunehmen.
+
+**Dynamische Mikrofone:**  
+Nutzen ein Magnet, um Spannung zu erzeugen – benötigen deshalb keinen Strom. Ideal für laute Quellen oder den robusten Live-Einsatz.
+
+---
+## **Charakteristiken von Mikrofonen**
+
+Mikrofone unterscheiden sich nicht nur in ihrer Bauart (z. B. Kondensator oder dynamisch), sondern auch in ihrer **Richtcharakteristik** – also darin, aus welchen Richtungen Schall aufgenommen wird.
+
+Die Richtcharakteristik beschreibt die Empfindlichkeit des Mikrofons in Bezug auf den Einfallswinkel des Schalls und bestimmt, aus welchen Richtungen ein Mikrofon Töne aufnimmt oder ausblendet.
+
+---
+
+### **Kugel (Omnidirektional, Druckempfänger)**
+
+- Nimmt Schall **gleichmäßig aus allen Richtungen** auf
+    
+- Kein bevorzugter Einfallswinkel – ideal für **Atmosphären**, **Raumklang** oder **Gruppenaufnahmen**
+    
+- **Nachteil:** Keine Geräuschunterdrückung – alles wird eingefangen
+    
+
+---
+
+### **Niere (Cardioid)**
+
+- Höchste Empfindlichkeit nach vorne, schwächere Aufnahme von der Seite, kaum von hinten
+    
+- Gute Unterdrückung von Störgeräuschen im Hintergrund
+    
+- Vielseitig einsetzbar – ideal für **Interviews**, **Gesang**, **Live-Situationen**
+    
+
+---
+
+### **Superniere**
+
+- Engerer Aufnahmebereich als Niere
+    
+- Bessere Isolierung von Störquellen seitlich
+    
+- Häufig in **Reportage-Mikrofonen** und **Kamera-Richtmikrofonen** verwendet
+    
+
+---
+
+### **Hyperniere**
+
+- Noch fokussierter als Superniere
+    
+- Sehr gerichtete Aufnahme nach vorne, minimale seitliche Einflüsse
+    
+- Etwas mehr Empfindlichkeit für Schall von hinten als Superniere
+    
+- Ideal für **laute oder hallende Umgebungen**, z. B. auf Bühnen oder in Sportarenen
+    
+
+---
+
+### **Keule (Lobar)**
+
+- Sehr stark gerichtete Charakteristik, oft bei **Richtmikrofonen (Shotguns)**
+    
+
+---
+
+### **Acht (Bidirektional)**
+
+- Nimmt Schall von **vorne und hinten** gleich stark auf, **Seiten werden stark ausgeblendet**
+
+
+
+![richtcharakteristiken.png](/images/richtcharakteristiken.png)
+
+
+
+![Richt2.png](/images/Richt2.png)
+
+
+---
+## Grundlagen Strom – einfach erklärt:
+
+- **Volt (V)** = Spannung → Der "Druck", der Elektronen durch ein System schiebt.
+    
+- **Ampere (A)** = Stromstärke → Wie viel Strom tatsächlich fließt.
+    
+- **Ohm (Ω)** = Widerstand → Wie stark der Stromfluss gebremst wird.
+    
+- **Watt (W)** = Leistung → Rechnet man aus:
+    
+    - **W = V × A**
+        
+
+Formeln:
+
+- **V = A × Ω**
+    
+- **A = V / Ω**
+    
+- **Ω = V / A**
+    
+
+---
+
+## Mikrofon- und Kopfhörerpegel
+
+Egal ob Kondensator oder dynamisch: Beide Mikrofonarten geben ein sehr leises Signal aus (typisch: 1–10 mV), das verstärkt werden muss. 
+
+---
+
+## Kopfhörer und Ohm-Werte
+
+- **Niedriger Widerstand (16–50 Ohm):**  
+    Laut bei mobilen Geräten, aber oft schlechtere Klangqualität. Ziehen mehr Strom, dafür weniger Spannung nötig.
+    
+- **Hoher Widerstand (80–600+ Ohm):**  
+    Brauchen mehr Spannung (z. B. durch Verstärker), liefern aber oft besseren Klang. Die Membran bewegt sich präziser, was zu besserer Klangtreue führt. Außerdem haben sie längere, dünnere Spulen – das hilft bei der Wiedergabe hoher Frequenzen.
+    
+
+Wichtig:  
+Ein Kopfhörer mit hoher Ohm-Zahl klingt auf einem Handy oder Laptop ohne Verstärker **sehr leise oder gar nicht**. Deshalb nutzt man sie meist im Studio mit entsprechender Technik.
+
+Aber: **Die Ohm-Zahl allein sagt nichts über die Klangqualität aus.** Materialien, Verarbeitung und Treiberdesign sind genauso entscheidend.
+
+---
+## Mikrofonen
+
+
+| Modell       | Art         | Funktion        | Charakteristik | Merkmale                                                    |
+| ------------ | ----------- | --------------- | -------------- | ----------------------------------------------------------- |
+| **SKM3072M** | Dynamisch   | Coile           | Hyperniere     | Eingebauter Sender (braucht daher trotzdem Strom)           |
+| **MKH416**   | Kondensator | Angelmikrofon   | Superniere     | Ideal für Film/TV, sehr gerichteter Klang                   |
+| **ME66**     | Kondensator | Coile / Angel   | Superniere     | Unterstützt Batterie für Phantomspeisung                    |
+| **MD421**    | Dynamisch   | Coile           | Superniere     | Ideal für sehr laute Umgebungen                             |
+| **ME102**    | Kondensator | Ansteckmikrofon | Kugel          | Am besten für O-Ton in leisen Umgebungen mit viel Bewegung  |
+| **ME104**    | Kondensator | Ansteckmikrofon | Niere          | Gut für O-Ton in lauten Umgebungen, wenn Person still steht |
+| **NTG1**     | Kondensator | Atmo            | Superniere     | Klassisches Atmo-Mikrofon für Film, braucht Phantomspeisung |
+
+
+### Kamera
+
+Die Farbtemperatur von Licht wird in Kelvin (K) gemessen. Sie beschreibt, wie „warm“ oder „kalt“ das Licht wirkt – also, ob es eher rötlich (warm) oder bläulich (kalt) erscheint. Diese Eigenschaft ist besonders wichtig für den Weißabgleich, da dieser dafür sorgt, dass Farben auf der Kamera natürlich wiedergegeben werden. Wenn z. B. eine Person vor der Kamera steht und das Bild zu „kalt“ ist, kann die Haut unnatürlich bläulich wirken.
+
+#### Farbtemperaturbereiche (in Kelvin):
+
+| Bereich          | Beschreibung                                                                         |
+| ---------------- | ------------------------------------------------------------------------------------ |
+| 1.000 – 2.000 K  | Sehr warmes Licht – tiefes Orange bis Rot (z. B. Kerzenlicht, Sonnenauf-/-untergang) |
+| 2.000 – 3.000 K  | Warmweiß – orange bis gelblich (Wohnräume, Restaurants)                              |
+| 3.000 – 4.500 K  | Neutralweiß – ausgewogenes Licht (Büros, Leselampen, Küchen)                         |
+| 4.500 – 6.500 K  | Kaltweiß – energisches, leicht bläuliches Licht (Tageslichtlampen, Studios)          |
+| 6.500 K und mehr | Bläuliches Licht – sehr hell und kalt (Fotostudios, Sicherheitsbeleuchtung)          |
+
+
+---
+
+
+![Kelvin.png](/images/Kelvin.png)
+#### Bedeutung für die Praxis
+
+In der professionellen Arbeit (z. B. Interview, Beitrag, Magazinbeitrag) streben wir in der Regel ein neutrales, ausgewogenes Bild an. Dafür ist es hilfreich, schon beim Dreh den Weißabgleich richtig zu setzen und mit einer passenden Farbtemperatur zu arbeiten – so spart man sich aufwendige Korrekturen in der Postproduktion.
+
+Beispiel:  
+Wenn das Bild zu rötlich wirkt, kann man die Farbtemperatur der Lichtquelle erhöhen, um mehr Blau ins Bild zu bringen. Umgekehrt kann man bei einem zu blauen Bild die Farbtemperatur senken, um das Licht „wärmer“ erscheinen zu lassen.
+
+---
+
+#### Natürliche Lichtquellen im Vergleich
+
+|Lichtquelle|Farbtemperatur (ca.)|
+|---|---|
+|Mittagssonne (klarer Himmel)|5.500 – 6.500 K|
+|Bewölkter Himmel|6.500 – 7.500 K|
+|Halogenlicht (klassisch)|ca. 3.200 K|
+|LED-Flächenlicht (einstellbar)|oft zwischen 3.200 – 5.600 K|
+
+Die Sonne selbst strahlt ein eher neutralweißes Licht mit ca. 5.600 K. An bewölkten Tagen dominiert Streulicht aus dem Himmel, wodurch die Farbtemperatur ansteigt und das Licht deutlich blauer erscheint.
+
+---
+
+### Unterschied: Halogen vs. LED
+
+- **Halogenlicht** funktioniert durch Erhitzen eines Glühdrahts (Filaments), der dabei Licht abgibt. Es erzeugt ein warmes Licht (meist ~3.200 K) und ist sehr ineffizient: Bis zu 90 % der Energie wird in Wärme umgewandelt. Die Lichtfarbe kann nicht direkt eingestellt werden, weshalb man bei Bedarf mit Farbfolien (z. B. CTB – Color Temperature Blue) arbeiten muss, um kühleres Licht zu erzeugen.
+    
+- **LED-Licht** basiert auf einem Halbleiter, durch den Strom fließt. LEDs sind energieeffizienter, erzeugen weniger Wärme und bieten oft eine einstellbare Farbtemperatur. Viele LED-Panels erlauben direkte Anpassung zwischen warmem und kaltem Licht – ideal für Drehs unter verschiedenen Bedingungen.
+
+![PXL_20240118_152746274.jpg](/images/PXL_20240118_152746274.jpg)
 
 #### Schnitt-Aufbau und Vorbereitung
 
