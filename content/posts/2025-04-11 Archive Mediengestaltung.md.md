@@ -1,5 +1,5 @@
 ---
-title: Audio in Mediengestaltung
+title: Archive Mediengestaltung
 date: 2025-04-11
 draft: false
 image:
