@@ -4,10 +4,9 @@ date: 2025-04-09
 draft:
 ---
 
-Hier sammeln wir kontinuierlich Wissen rund um Mediengestaltung. Unser Ziel ist es, eine umfassende Ressource zu schaffen, die sowohl Grundlagen als auch fortgeschrittene Techniken übersichtlich darstellt.
+**Herzlich Willkommen & ein Neuanfang auf unserem Blog!**
 
-
-Diese Website ist ein lebendiges Projekt. Bei der Zusammenstellung umfangreicher Inhalte können vereinzelt Fehler auftreten.
+Wir freuen uns, euch auf unserem neu ausgerichteten Blog begrüßen zu dürfen! Während wir uns früher intensiv der Mediengestaltung gewidmet haben (deren Beiträge wir in einem längeren Archivpost bewahren), liegt unser Hauptaugenmerk ab sofort auf den spannenden Bereichen **UI/UX Design** und dem **breiten Feld des Grafischen Designs**. Wir werden uns auf intuitive Benutzerführung, ansprechende Oberflächen und innovative Gestaltung konzentrieren und bitten um etwas Geduld, während wir die Inhalte der Seite entsprechend aktualisieren.
 
 
 ![PXL_20250131_153427836.jpg](/images/PXL_20250131_153427836.jpg)![PXL_20240606_120408172.jpg](/images/PXL_20240606_120408172.jpg)
