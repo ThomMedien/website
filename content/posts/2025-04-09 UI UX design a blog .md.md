@@ -1,7 +1,7 @@
 ---
-title: Willkommen bei Mediengestaltung Kompakt
+title: Willkommen bei UI UX Kompakt
 date: 2025-04-09
-draft: false
+draft:
 ---
 
 Hier sammeln wir kontinuierlich Wissen rund um Mediengestaltung. Unser Ziel ist es, eine umfassende Ressource zu schaffen, die sowohl Grundlagen als auch fortgeschrittene Techniken übersichtlich darstellt.
