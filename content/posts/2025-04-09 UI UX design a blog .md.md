@@ -9,4 +9,5 @@ draft:
 Wir freuen uns, euch auf unserem neu ausgerichteten Blog begrüßen zu dürfen! Während wir uns früher intensiv der Mediengestaltung gewidmet haben (deren Beiträge wir in einem längeren Archivpost bewahren), liegt unser Hauptaugenmerk ab sofort auf den spannenden Bereichen **UI/UX Design** und dem **breiten Feld des Grafischen Designs**. Wir werden uns auf intuitive Benutzerführung, ansprechende Oberflächen und innovative Gestaltung konzentrieren und bitten um etwas Geduld, während wir die Inhalte der Seite entsprechend aktualisieren.
 
 
-![PXL_20250131_153427836.jpg](/images/PXL_20250131_153427836.jpg)![PXL_20240606_120408172.jpg](/images/PXL_20240606_120408172.jpg)
+
+![Untitled.jpg](/images/Untitled.jpg)
