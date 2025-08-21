@@ -1,6 +1,6 @@
 ---
 title: Career change and AI
-date: 2025-08-21
+date: 2025-08-19
 draft:
 ---
 Making a career change is tough. Moving from media design and photography into the digital world felt overwhelming, especially when it came to building a new portfolio. A quick Google search brings up a massive variety of AI platforms, with countless new software options promising to design my site for me. I spent more time trying to figure out which tool to use than actually building anything.

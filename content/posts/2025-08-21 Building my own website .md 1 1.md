@@ -1,6 +1,6 @@
 ---
 title: Building my own website
-date: 2025-08-25
+date: 2025-08-21
 draft:
 ---
 Building my own website, News Global, began as a personal challenge. I wanted to dive into a new world of code and truly understand the core principles of UI/UX and web design. The idea was simple enough: centralise news from different countries onto an interactive map. It was a perfect project for a hands-on learning approach.
