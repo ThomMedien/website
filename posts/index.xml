@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MCP Opportunities</title>
-      <link>/posts/2025-09-24-mcp-opportunities/</link>
+      <title>Update</title>
+      <link>/posts/2025-09-24-update/</link>
       <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/2025-09-24-mcp-opportunities/</guid>
-      <description>&lt;p&gt;MCP servers feel like the missing plumbing for AI. By turning apps into safe, composable capabilities, assistants can do real work across tools like Figma and Webflownot just draft text. Its the bridge from chat to action, where context travels with you and tasks stop at boundaries you control.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/Christophe-Jacrot-Norilsk-Siberia-14.jpg&#34; alt=&#34;Christophe-Jacrot-Norilsk-Siberia-14.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/final4.jpg&#34; alt=&#34;final4.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/found-google-images.jpg&#34; alt=&#34;found-google-images.jpg&#34;&gt;&lt;/p&gt;</description>
+      <guid>/posts/2025-09-24-update/</guid>
+      <description>&lt;p&gt;Quick check-in on what Ive been up to lately.&lt;/p&gt;&#xA;&lt;p&gt;Ive been learning n8n to automate repetitive tasksexperimenting with workflows for content updates, notifications, and simple data transforms. Its already cutting out a lot of manual glue work.&lt;/p&gt;&#xA;&lt;p&gt;Im also exploring MCP (Model Context Protocol) to connect assistants with real tools. The goal is to make actions like pulling Figma components, publishing Webflow updates, or assembling briefs happen from one placesafely and with context.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building my own website</title>
