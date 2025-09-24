@@ -3,6 +3,7 @@
 # Set variables for Obsidian to Hugo copy
 $sourcePath = "C:\Users\Tom Coffey\Desktop\Technical\Obsidian Notes\Mediengestaltung Notes\Posts for website"
 $destinationPath = "C:\Users\Tom Coffey\Documents\website\content\posts"
+$publicImagesPath = "C:\Users\Tom Coffey\Documents\website\public\images"
 
 # Set Github repo 
 $myrepo = "git@github.com:ThomMedien/website.git"
@@ -49,44 +50,24 @@ if (-not (Test-Path ".git")) {
     }
 }
 
-# Step 2: Sync posts from Obsidian to Hugo content folder using Robocopy
-Write-Host "Syncing posts from Obsidian..."
+# New Step 2: Copy images from all post subdirectories to the public images folder
+Write-Host "Copying images to public directory..."
 
 if (-not (Test-Path $sourcePath)) {
     Write-Error "Source path does not exist: $sourcePath"
     exit 1
 }
 
-if (-not (Test-Path $destinationPath)) {
-    Write-Error "Destination path does not exist: $destinationPath"
-    exit 1
+if (-not (Test-Path $publicImagesPath)) {
+    Write-Host "Public images directory does not exist. Creating it..."
+    New-Item -Path $publicImagesPath -ItemType Directory -Force
 }
 
-# Use Robocopy to mirror the directories
-$robocopyOptions = @('/MIR', '/Z', '/W:5', '/R:3')
-$robocopyResult = robocopy $sourcePath $destinationPath @robocopyOptions
-
-if ($LASTEXITCODE -ge 8) {
-    Write-Error "Robocopy failed with exit code $LASTEXITCODE"
-    exit 1
+Get-ChildItem -Path $sourcePath -Recurse -Include *.jpg, *.png, *.jpeg | ForEach-Object {
+    Copy-Item -Path $_.FullName -Destination $publicImagesPath
 }
 
-# Step 3: Process Markdown files with Python script to handle image links
-Write-Host "Processing image links in Markdown files..."
-if (-not (Test-Path "images.py")) {
-    Write-Error "Python script images.py not found."
-    exit 1
-}
-
-# Execute the Python script
-try {
-    & $pythonCommand images.py
-} catch {
-    Write-Error "Failed to process image links."
-    exit 1
-}
-
-# Step 4: Build the Hugo site
+# Step 3: Build the Hugo site
 Write-Host "Building the Hugo site..."
 try {
     hugo
@@ -95,7 +76,7 @@ try {
     exit 1
 }
 
-# Step 5: Add changes to Git
+# Step 4: Add changes to Git
 Write-Host "Staging changes for Git..."
 $hasChanges = (git status --porcelain) -ne ""
 if (-not $hasChanges) {
@@ -104,7 +85,7 @@ if (-not $hasChanges) {
     git add .
 }
 
-# Step 6: Commit changes with a dynamic message
+# Step 5: Commit changes with a dynamic message
 $commitMessage = "New Blog Post on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
 $hasStagedChanges = (git diff --cached --name-only) -ne ""
 if (-not $hasStagedChanges) {
@@ -114,7 +95,7 @@ if (-not $hasStagedChanges) {
     git commit -m "$commitMessage"
 }
 
-# Step 7: Push all changes to the main branch
+# Step 6: Push all changes to the main branch
 Write-Host "Deploying to GitHub Master..."
 try {
     git push origin master
@@ -123,7 +104,7 @@ try {
     exit 1
 }
 
-# Step 8: Push the public folder to the hostinger branch using subtree split and force push
+# Step 7: Push the public folder to the hostinger branch using subtree split and force push
 Write-Host "Deploying to GitHub Hostinger..."
 
 # Check if the temporary branch exists and delete it
