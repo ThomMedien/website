@@ -15,7 +15,9 @@ On the portfolio side, Im shaping case studies: clarifying before/after states, 
 Next up: tighten the case study drafts, wire up a couple of n8n flows end-to-end, and try an MCP-powered design-to-web flow to reduce handoff time.
 
 
-![Google Preview.png](/images/Google%20Preview.png)
+![SMPTE_Color_Bars_16x9.png](/images/SMPTE_Color_Bars_16x9.png)
+
+![Truck.jpg](/images/Truck.jpg)
 
 
 
