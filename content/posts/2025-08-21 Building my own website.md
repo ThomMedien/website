@@ -1,4 +1,4 @@
-﻿---
+---
 title: Building my own website
 date: 2025-08-21
 draft:

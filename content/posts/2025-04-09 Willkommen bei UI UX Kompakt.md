@@ -1,4 +1,4 @@
-﻿---
+---
 title: Willkommen bei UI UX Kompakt
 date: 2025-04-09
 draft:

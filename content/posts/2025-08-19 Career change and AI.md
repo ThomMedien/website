@@ -1,4 +1,4 @@
-﻿---
+---
 title: Career change and AI
 date: 2025-08-19
 draft:
