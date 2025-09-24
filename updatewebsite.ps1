@@ -281,6 +281,4 @@ try {
 git branch -D hostinger-deploy
 
 
-Write-Host "All done! Site synced, processed, committed, built, and deployed."
-
-this is the current code in the update website.ps1
+Write-Host "All done! Site synced, processed, committed, built, and deployed." 
