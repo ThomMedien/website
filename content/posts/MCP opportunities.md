@@ -1,6 +1,14 @@
+﻿---
+title: MCP opportunities
+date: 2025-09-24
+draft:
+---
 
+# MCP opportunities
 
-## MCP and its opportunities
+# 2025-09-24 MCP opportunities
+
+## MCP opportunities
 
 Model Context Protocol (MCP) servers expose tools and data as clean, discoverable capabilities to AI-powered assistants. For designers, this turns your favorite apps into a cohesive creative system where actions, assets, and context are orchestrated through natural language.
 
@@ -65,4 +73,4 @@ Model Context Protocol (MCP) servers expose tools and data as clean, discoverabl
 MCP servers dont replace craftthey amplify it. By turning design tools like Figma and Webflow into programmable, safe, and composable building blocks, designers gain time to think, explore, and ship with confidence.
 
 
-![img005legit.jpg](/images/img005legit.jpg)![img008 1.jpg](/images/img008%201.jpg)
+
