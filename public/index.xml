@@ -6,15 +6,8 @@
     <description>Recent content on Terminal</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Update, testing MCP and Powershell Script</title>
-      <link>/posts/2025-09-24-update-testing-mcp-and-powershell-script/</link>
-      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/2025-09-24-update-testing-mcp-and-powershell-script/</guid>
-      <description>&lt;p&gt;Quick check-in on what Ive been up to lately.&lt;/p&gt;&#xA;&lt;p&gt;Ive been learning n8n to automate repetitive tasksexperimenting with workflows for content updates, notifications, and simple data transforms. Its already cutting out a lot of manual glue work.&lt;/p&gt;&#xA;&lt;p&gt;Im also exploring MCP (Model Context Protocol) to connect assistants with real tools. The goal is to make actions like pulling Figma components, publishing Webflow updates, or assembling briefs happen from one placesafely and with context.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Building my own website</title>
       <link>/posts/2025-08-21-building-my-own-website/</link>
